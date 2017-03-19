@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff8e1"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/nowPlaying"
+        style="@style/homeCategory"
+        android:background="#ffca28"
+        android:text="Now Playing" />
+
+    <TextView
+        android:id="@+id/tracks"
+        style="@style/homeCategory"
+        android:background="#ffc107"
+        android:text="Tracks" />
+
+    <TextView
+        android:id="@+id/playlists"
+        style="@style/homeCategory"
+        android:background="#ffb300"
+        android:text="Playlists" />
+
+    <TextView
+        style="@style/homeCategory"
+        android:background="#ffa000"
+        android:text="Music Store" />
+
+    <EditText
+        style="@style/homeCategory"
+        android:background="#ff8f00"
+        android:hint="Search Here!"/>
+</LinearLayout>
